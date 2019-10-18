@@ -8,20 +8,11 @@ Here we have a scenario similar to the work we do at Joblab.
 ### Scenario
 
 Given we have Applicants and Employers, when one employer creates a new Vacancy,
-we would like to email matching candidates based on location.
+we would like to get an list of applicants ordered by the following criteria:
 
-The email will have two links:
-- interested
-- not interested
-
-We want to keep track of the Applicants `interested` / `not interested` in the role. 
-
-### Notes
-
-- keep `matching algorithm` simple
-- same with email template
-- app does not need to send `real` emails
-
+- location
+- salary
+- availability
 
 ### Submission
 
